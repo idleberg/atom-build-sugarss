@@ -1,0 +1,45 @@
+{
+  "name": "build-sugarss",
+  "version": "0.3.5",
+  "description": "Atom Build provider for postcss/sugarss, compiles SugarSS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idleberg/atom-build-sugarss.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "build",
+    "compile",
+    "sugarss",
+    "postcss",
+    "linter",
+    "lint"
+  ],
+  "main": "lib/provider.js",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Compiles SugarSS",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.0.1",
+    "eslint-config-atom-build": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-jsonlint": "^1.1.2",
+    "gulp-lesshint": "^2.0.0",
+    "jshint": "^2.9.2"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  }
+}
