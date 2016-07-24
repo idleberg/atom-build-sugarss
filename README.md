@@ -51,7 +51,7 @@ The name of the output file can be overridden in your `config.cson`:
 
 ```cson
 "build-sugarss":
-  outputFile: "{FILE_ACTIVE_NAME_BASE}.css"
+  outputFile: "dist/{FILE_ACTIVE_NAME}"
 ```
 
 ### Shortcuts
