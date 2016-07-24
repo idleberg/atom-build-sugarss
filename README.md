@@ -47,6 +47,13 @@ Available targets:
 * `SugarSS --watch` — compile script and keep watching
 * `SugarSS --map --watch` — compile script, create a map and keep watching
 
+The name of the output file can be overridden in your `config.cson`:
+
+```cson
+"build-sugarss":
+  outputFile: "{FILE_ACTIVE_NAME_BASE}.css"
+```
+
 ### Shortcuts
 
 Here's a reminder of the default shortcuts you can use with this package:
