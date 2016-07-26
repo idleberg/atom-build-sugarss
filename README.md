@@ -4,7 +4,8 @@
 [![apm](https://img.shields.io/apm/v/build-sugarss.svg?style=flat-square)](https://atom.io/packages/build-sugarss)
 [![apm](https://img.shields.io/apm/dm/build-sugarss.svg?style=flat-square)](https://atom.io/packages/build-sugarss)
 [![Travis](https://img.shields.io/travis/idleberg/atom-build-sugarss.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-sugarss)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-sugarss.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-sugarss#info=dependencies)
+[![David](https://img.shields.io/david/idleberg/atom-build-sugarss.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-sugarss#info=dependencies)
+[![David](https://img.shields.io/david/dev/idleberg/atom-build-sugarss.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-sugarss#info=devDependencies)
 
 [Atom Build](https://atombuild.github.io/) provider for `postcss/sugarss`, compiles SugarSS. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
@@ -51,7 +52,7 @@ The name of the output file can be overridden in your `config.cson`:
 
 ```cson
 "build-sugarss":
-  outputFile: "dist/{FILE_ACTIVE_NAME}"
+  outputFile: "{FILE_ACTIVE_NAME_BASE}.css"
 ```
 
 ### Shortcuts
