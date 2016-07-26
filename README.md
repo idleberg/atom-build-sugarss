@@ -48,7 +48,7 @@ Available targets:
 * `SugarSS --watch` — compile script and keep watching
 * `SugarSS --map --watch` — compile script, create a map and keep watching
 
-The name of the output file can be overridden in your `config.cson`:
+The name of the output file can be overridden in your `config.cson`, all [standard replacements](https://github.com/noseglid/atom-build#replacements) can be used::
 
 ```cson
 "build-sugarss":
