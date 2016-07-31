@@ -1,6 +1,6 @@
 {
   "name": "build-sugarss",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Atom Build provider for postcss/sugarss, compiles SugarSS",
   "repository": {
     "type": "git",
