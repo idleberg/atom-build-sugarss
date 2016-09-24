@@ -38,8 +38,8 @@ $ git clone https://github.com/idleberg/atom-build-sugarss build-sugarss
 Install Node dependencies:
 
 ```bash
-cd build-sugarss
-npm install
+$ cd build-sugarss
+$ npm install
 ```
 
 ## Usage
