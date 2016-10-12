@@ -35,10 +35,9 @@ Clone repository as `build-sugarss`:
 $ git clone https://github.com/idleberg/atom-build-sugarss build-sugarss
 ```
 
-Install Node dependencies:
+Inside the cloned directory, install Node dependencies:
 
 ```bash
-$ cd build-sugarss
 $ yarn || npm install
 ```
 
