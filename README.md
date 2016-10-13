@@ -17,7 +17,7 @@ Install `build-sugarss` from Atom's [Package Manager](http://flight-manual.atom.
 
 `$ apm install build-sugarss`
 
-### GitHub
+### Using Git
 
 Change to your Atom packages directory:
 
