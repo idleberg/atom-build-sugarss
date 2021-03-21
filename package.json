@@ -2,10 +2,7 @@
   "name": "build-sugarss",
   "version": "0.6.2",
   "description": "Atom Build provider for postcss/sugarss, compiles SugarSS",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/idleberg/atom-build-sugarss.git"
-  },
+  "repository": "https://github.com/idleberg/atom-build-sugarss",
   "license": "MIT",
   "keywords": [
     "buildprovider",
