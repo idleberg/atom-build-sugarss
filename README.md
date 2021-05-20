@@ -1,10 +1,10 @@
 # build-sugarss
 
-[![apm](https://img.shields.io/apm/l/build-sugarss.svg?style=flat-square)](https://atom.io/packages/build-sugarss)
-[![apm](https://img.shields.io/apm/v/build-sugarss.svg?style=flat-square)](https://atom.io/packages/build-sugarss)
-[![apm](https://img.shields.io/apm/dm/build-sugarss.svg?style=flat-square)](https://atom.io/packages/build-sugarss)
+[![apm](https://flat.badgen.net/apm/license/build-sugarss)](https://atom.io/packages/build-sugarss)
+[![apm](https://flat.badgen.net/apm/v/build-sugarss)](https://atom.io/packages/build-sugarss)
+[![apm](https://flat.badgen.net/apm/dl/build-sugarss)](https://atom.io/packages/build-sugarss)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-sugarss)](https://circleci.com/gh/idleberg/atom-build-sugarss)
-[![David](https://img.shields.io/david/idleberg/atom-build-sugarss.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-sugarss)
+[![David](https://flat.badgen.net/david/dev/idleberg/atom-build-sugarss)](https://david-dm.org/idleberg/atom-build-sugarss?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for `postcss/sugarss`, compiles SugarSS. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
